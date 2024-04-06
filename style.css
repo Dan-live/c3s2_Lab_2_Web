@@ -1,0 +1,54 @@
+body {
+    background: url("assets/background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 90%;
+    margin: 10% auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .logo-img {
+    width: 20%;
+    max-width: 20%;
+    height: auto;
+  }
+  
+  h1 {
+    font-size: 4vw;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0 40%;
+    letter-spacing: 0.2vw;
+    margin-bottom: 5%;
+    background-color: #20c997;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  .buttons {
+    margin-top: 5%;
+  }
+  
+  .btn-block .btn {
+    display: inline-block;
+    padding: 1vw 2vw;
+    margin: 0 40%;
+    text-decoration: none;
+    color: #fff;
+    background-color: #20c997;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-block .btn:hover {
+    background-color: #127c5c;
+  }
+  

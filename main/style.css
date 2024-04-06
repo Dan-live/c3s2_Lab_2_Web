@@ -1,0 +1,92 @@
+* {
+  font-family: "DM Sans", cursive !important;
+}
+
+body {
+  background: url("../assets/background.jpg") no-repeat center center fixed;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.mint-border {
+  /* border: 10px solid #20c997;
+  border-radius: 30px;
+  height: 97%; */
+  position: relative; 
+  margin-bottom: 20px; 
+}
+
+.mint-border::before {
+  content: ''; 
+  position: absolute;
+  top: -10px; 
+  left: -9px;
+  right: -9.5px;
+  bottom: -9px;
+  border: 10px solid #20c997; 
+  border-radius: 30px;
+}
+.todo-card {
+  min-width: 50vw !important;
+  max-width: 70vw !important;
+  min-height: 60vh !important;
+  border-radius: 20px !important;
+  padding: 25px;
+  margin-top: 10px;
+}
+
+.link-btn {
+  padding: 5px 20px !important;
+  background: transparent !important;
+  border: 2px solid white !important;
+  outline: none !important;
+  transition: 0.2s;
+}
+
+.add-todo-btn {
+  padding: 10px 30px !important;
+  background: transparent !important;
+  border: 2px solid white !important;
+  outline: none !important;
+  transition: 0.2s;
+}
+
+.add-todo-btn:hover,
+.link-btn:hover {
+  color: black !important;
+  background: #20c997 !important;
+}
+
+.todo-item {
+  position: relative;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 15px 0;
+}
+
+.todo-item p {
+  max-width: 90%;
+  font-weight: 300 !important;
+}
+
+.btn-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+@media (max-width: 750px) {
+  .sign-up-card {
+    width: 20rem;
+    padding: 10px;
+    font-size: 14px;
+  }
+}

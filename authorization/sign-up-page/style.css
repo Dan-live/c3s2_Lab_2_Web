@@ -1,0 +1,54 @@
+* {
+  font-family: "DM Sans", cursive !important;
+}
+
+.form-floating *,
+.form-floating option {
+  font-weight: 300 !important;
+}
+
+body {
+  background: url("../../assets/background.jpg") no-repeat center center fixed;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+}
+.wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.mint-border {
+  border: 10px solid #20c997;
+  border-radius: 30px;
+  margin: -10px;
+  height: 100.6%;
+}
+.sign-up-card {
+  width: 30rem;
+  border-radius: 20px !important;
+  padding: 25px;
+}
+
+.sign-up-btn {
+  background: transparent !important;
+  border: 2px solid white !important;
+  outline: none !important;
+  transition: 0.2s;
+}
+
+.sign-up-btn:hover {
+  color: black !important;
+  background: #20c997 !important;
+}
+
+@media (max-width: 750px) {
+  .sign-up-card {
+    width: 20rem;
+    padding: 10px;
+    font-size: 14px;
+  }
+}
